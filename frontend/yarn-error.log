@@ -1,0 +1,91 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mised\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-chartjs-2 chart.js --network-timeout 1000000000
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\mised\AppData\Local\Microsoft\WindowsApps;;C:\Users\mised\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mised\.dotnet\tools;C:\Users\mised\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\mised\AppData\Local\Yarn\Cache\v6\npm-@restart-hooks-0.4.11-8876ccce1d4ad2a4b793a31689d63df36cf56088-integrity\node_modules\@restart\hooks\package.json' -> 'C:\Users\mised\Downloads\To-Do-App\To-Do-App\backend\frontend\node_modules\@restart\hooks\package.json'
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:8080",
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "assert": "^2.0.0",
+      "axios": "^1.4.0",
+      "bootstrap": "^5.2.3",
+      "browserify-zlib": "^0.2.0",
+      "chart.js": "^4.3.0",
+      "formik": "^2.4.2",
+      "https-browserify": "^1.0.0",
+      "jwt-decode": "^3.1.2",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.7.4",
+      "react-chartjs-2": "^5.2.0",
+      "react-datepicker": "^4.16.0",
+      "react-dom": "^18.2.0",
+      "react-hot-toast": "^2.4.1",
+      "react-icons": "^4.10.1",
+      "react-router-dom": "^6.14.1",
+      "react-scripts": "5.0.1",
+      "stream-browserify": "^3.0.0",
+      "stream-http": "^3.2.0",
+      "url": "^0.11.1",
+      "web-vitals": "^2.1.4",
+      "zustand": "^4.3.9"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "browser": {
+      "http": "stream-http",
+      "https": "https-browserify",
+      "util": "util",
+      "zlib": "browserify-zlib",
+      "stream": "stream-browserify",
+      "url": "url",
+      "assert": "assert"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
